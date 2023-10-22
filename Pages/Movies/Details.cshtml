@@ -1,0 +1,14 @@
+﻿@page "{id:int}"
+@model IRDb.Pages.Movies.DetailsModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Movie Details";
+}
+
+<h2>@Model.Movie?.Title</h2>
+
+<p>Year: @Model.Movie?.Year</p>
+<p>Genre: @Model.Movie?.Genre</p>
+<p>Rating: @Model.Movie?.Rating</p>
+<p>Director: @Model.Movie?.Director</p>
+<p>Duration: @Model.Movie?.Duration</p>
