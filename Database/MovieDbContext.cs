@@ -39,7 +39,7 @@ namespace IRDb.Database
             new Movie
             {
                 Id = 3,
-                Title = "One Flew Over the Cuckoo's Nest",
+                Title = "One Flew Over the Cuckoos Nest",
                 Year = 1975,
                 Genre = "Drama",
                 Rating = Math.Round(8.7, 1),

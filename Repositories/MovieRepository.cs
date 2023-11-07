@@ -62,6 +62,8 @@ namespace IRDb.Repositories
             movie.Genre = request.Genre;
             movie.Rating = request.Rating;
             movie.Year = request.Year;
+            movie.Director = request.Director;
+            movie.Duration = request.Duration;
 
 
             await _context.SaveChangesAsync();
